@@ -37,8 +37,8 @@ public:
 			for (int k = 0; k < size; k++)
 			{
 				string s;
-				s += t[k];
 				s += key[n][k];
+				s += t[j];
 				v.push_back(s);
 			}
 		}
@@ -60,6 +60,27 @@ public:
 	};
 };
 
+class Solution2 {
+public:
+	vector<string> letterCombinations(string digits) {
+		static const vector<string> map = { "","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz" };
+		vector<string> res;
+		if (digits.length() == 0) return res;
+		res.push_back("");
+		for (auto i : digits) {
+			int index = i - '0';
+			string cur = map[index];
+			vector<string> curs;
+			for (int k = 0; k < res.size(); ++k) {
+				for (auto j : cur) {
+					curs.push_back(res[k] + j);
+				}
+			}
+			res = curs;
+		}
+		return res;
+	}
+};
 
 int main()
 {
