@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "TwoSum\TwoSum.vcxproj", "{794D30C1-C71D-4FA6-9AF2-664022542510}"
 EndProject
@@ -33,6 +33,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3Sum Closest", "3Sum Closest\3Sum Closest.vcxproj", "{B16C168C-B04A-4BEA-B010-2A98B5548983}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Letter Combinations of a Phone Number", "Letter Combinations of a Phone Number\Letter Combinations of a Phone Number.vcxproj", "{E06EF728-4E38-4954-A2C4-AC303E868BD5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4Sum", "4Sum\4Sum.vcxproj", "{9EEFB99F-3582-4428-8AE4-CA5991136681}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -170,6 +172,14 @@ Global
 		{E06EF728-4E38-4954-A2C4-AC303E868BD5}.Release|x64.Build.0 = Release|x64
 		{E06EF728-4E38-4954-A2C4-AC303E868BD5}.Release|x86.ActiveCfg = Release|Win32
 		{E06EF728-4E38-4954-A2C4-AC303E868BD5}.Release|x86.Build.0 = Release|Win32
+		{9EEFB99F-3582-4428-8AE4-CA5991136681}.Debug|x64.ActiveCfg = Debug|x64
+		{9EEFB99F-3582-4428-8AE4-CA5991136681}.Debug|x64.Build.0 = Debug|x64
+		{9EEFB99F-3582-4428-8AE4-CA5991136681}.Debug|x86.ActiveCfg = Debug|Win32
+		{9EEFB99F-3582-4428-8AE4-CA5991136681}.Debug|x86.Build.0 = Debug|Win32
+		{9EEFB99F-3582-4428-8AE4-CA5991136681}.Release|x64.ActiveCfg = Release|x64
+		{9EEFB99F-3582-4428-8AE4-CA5991136681}.Release|x64.Build.0 = Release|x64
+		{9EEFB99F-3582-4428-8AE4-CA5991136681}.Release|x86.ActiveCfg = Release|Win32
+		{9EEFB99F-3582-4428-8AE4-CA5991136681}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
