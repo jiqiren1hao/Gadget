@@ -1,7 +1,6 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "TwoSum\TwoSum.vcxproj", "{794D30C1-C71D-4FA6-9AF2-664022542510}"
 EndProject
@@ -28,6 +27,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Integer to Roman", "Integer to Roman\Integer to Roman.vcxproj", "{DF5ED417-18FE-471E-964D-12B6EA739B09}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Roman to Integer", "Roman to Integer\Roman to Integer.vcxproj", "{FF34BF4D-2B7F-46C0-879A-7F7808E7D29C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3Sum", "3Sum\3Sum.vcxproj", "{9D2270D1-A55D-4828-893A-8E422A01505A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3Sum Closest", "3Sum Closest\3Sum Closest.vcxproj", "{B16C168C-B04A-4BEA-B010-2A98B5548983}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Letter Combinations of a Phone Number", "Letter Combinations of a Phone Number\Letter Combinations of a Phone Number.vcxproj", "{E06EF728-4E38-4954-A2C4-AC303E868BD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +146,30 @@ Global
 		{FF34BF4D-2B7F-46C0-879A-7F7808E7D29C}.Release|x64.Build.0 = Release|x64
 		{FF34BF4D-2B7F-46C0-879A-7F7808E7D29C}.Release|x86.ActiveCfg = Release|Win32
 		{FF34BF4D-2B7F-46C0-879A-7F7808E7D29C}.Release|x86.Build.0 = Release|Win32
+		{9D2270D1-A55D-4828-893A-8E422A01505A}.Debug|x64.ActiveCfg = Debug|x64
+		{9D2270D1-A55D-4828-893A-8E422A01505A}.Debug|x64.Build.0 = Debug|x64
+		{9D2270D1-A55D-4828-893A-8E422A01505A}.Debug|x86.ActiveCfg = Debug|Win32
+		{9D2270D1-A55D-4828-893A-8E422A01505A}.Debug|x86.Build.0 = Debug|Win32
+		{9D2270D1-A55D-4828-893A-8E422A01505A}.Release|x64.ActiveCfg = Release|x64
+		{9D2270D1-A55D-4828-893A-8E422A01505A}.Release|x64.Build.0 = Release|x64
+		{9D2270D1-A55D-4828-893A-8E422A01505A}.Release|x86.ActiveCfg = Release|Win32
+		{9D2270D1-A55D-4828-893A-8E422A01505A}.Release|x86.Build.0 = Release|Win32
+		{B16C168C-B04A-4BEA-B010-2A98B5548983}.Debug|x64.ActiveCfg = Debug|x64
+		{B16C168C-B04A-4BEA-B010-2A98B5548983}.Debug|x64.Build.0 = Debug|x64
+		{B16C168C-B04A-4BEA-B010-2A98B5548983}.Debug|x86.ActiveCfg = Debug|Win32
+		{B16C168C-B04A-4BEA-B010-2A98B5548983}.Debug|x86.Build.0 = Debug|Win32
+		{B16C168C-B04A-4BEA-B010-2A98B5548983}.Release|x64.ActiveCfg = Release|x64
+		{B16C168C-B04A-4BEA-B010-2A98B5548983}.Release|x64.Build.0 = Release|x64
+		{B16C168C-B04A-4BEA-B010-2A98B5548983}.Release|x86.ActiveCfg = Release|Win32
+		{B16C168C-B04A-4BEA-B010-2A98B5548983}.Release|x86.Build.0 = Release|Win32
+		{E06EF728-4E38-4954-A2C4-AC303E868BD5}.Debug|x64.ActiveCfg = Debug|x64
+		{E06EF728-4E38-4954-A2C4-AC303E868BD5}.Debug|x64.Build.0 = Debug|x64
+		{E06EF728-4E38-4954-A2C4-AC303E868BD5}.Debug|x86.ActiveCfg = Debug|Win32
+		{E06EF728-4E38-4954-A2C4-AC303E868BD5}.Debug|x86.Build.0 = Debug|Win32
+		{E06EF728-4E38-4954-A2C4-AC303E868BD5}.Release|x64.ActiveCfg = Release|x64
+		{E06EF728-4E38-4954-A2C4-AC303E868BD5}.Release|x64.Build.0 = Release|x64
+		{E06EF728-4E38-4954-A2C4-AC303E868BD5}.Release|x86.ActiveCfg = Release|Win32
+		{E06EF728-4E38-4954-A2C4-AC303E868BD5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
