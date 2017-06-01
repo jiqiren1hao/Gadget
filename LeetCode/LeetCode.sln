@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "TwoSum\TwoSum.vcxproj", "{794D30C1-C71D-4FA6-9AF2-664022542510}"
 EndProject
@@ -37,6 +37,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4Sum", "4Sum\4Sum.vcxproj", "{9EEFB99F-3582-4428-8AE4-CA5991136681}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Remove Nth Node From End of List", "Remove Nth Node From End of List\Remove Nth Node From End of List.vcxproj", "{34DBFB3F-4D9B-4401-9D67-B5C02BDF58B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Merge Two Sorted Lists", "Merge Two Sorted Lists\Merge Two Sorted Lists.vcxproj", "{15ABA508-7699-482E-8B61-1B06FF48008A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -190,6 +192,14 @@ Global
 		{34DBFB3F-4D9B-4401-9D67-B5C02BDF58B2}.Release|x64.Build.0 = Release|x64
 		{34DBFB3F-4D9B-4401-9D67-B5C02BDF58B2}.Release|x86.ActiveCfg = Release|Win32
 		{34DBFB3F-4D9B-4401-9D67-B5C02BDF58B2}.Release|x86.Build.0 = Release|Win32
+		{15ABA508-7699-482E-8B61-1B06FF48008A}.Debug|x64.ActiveCfg = Debug|x64
+		{15ABA508-7699-482E-8B61-1B06FF48008A}.Debug|x64.Build.0 = Debug|x64
+		{15ABA508-7699-482E-8B61-1B06FF48008A}.Debug|x86.ActiveCfg = Debug|Win32
+		{15ABA508-7699-482E-8B61-1B06FF48008A}.Debug|x86.Build.0 = Debug|Win32
+		{15ABA508-7699-482E-8B61-1B06FF48008A}.Release|x64.ActiveCfg = Release|x64
+		{15ABA508-7699-482E-8B61-1B06FF48008A}.Release|x64.Build.0 = Release|x64
+		{15ABA508-7699-482E-8B61-1B06FF48008A}.Release|x86.ActiveCfg = Release|Win32
+		{15ABA508-7699-482E-8B61-1B06FF48008A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
