@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "TwoSum\TwoSum.vcxproj", "{794D30C1-C71D-4FA6-9AF2-664022542510}"
 EndProject
@@ -43,6 +43,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Generate Parentheses", "Generate Parentheses\Generate Parentheses.vcxproj", "{BB5B9139-AE48-475E-ADE6-AC5B9B455BAC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid Parentheses", "Valid Parentheses\Valid Parentheses.vcxproj", "{19B65565-6927-4BE1-93FF-BD1D281C6784}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Merge k Sorted Lists", "Merge k Sorted Lists\Merge k Sorted Lists.vcxproj", "{4445A1E3-DBF2-4BDB-82CD-38F182C2A95E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Swap Nodes in Pairs", "Swap Nodes in Pairs\Swap Nodes in Pairs.vcxproj", "{B11A5A43-3603-41C6-99D2-A4960501E05B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse Nodes in k-Group", "Reverse Nodes in k-Group\Reverse Nodes in k-Group.vcxproj", "{95CCAEC4-F882-4BEC-B51F-12A7CF8CA356}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -220,6 +226,30 @@ Global
 		{19B65565-6927-4BE1-93FF-BD1D281C6784}.Release|x64.Build.0 = Release|x64
 		{19B65565-6927-4BE1-93FF-BD1D281C6784}.Release|x86.ActiveCfg = Release|Win32
 		{19B65565-6927-4BE1-93FF-BD1D281C6784}.Release|x86.Build.0 = Release|Win32
+		{4445A1E3-DBF2-4BDB-82CD-38F182C2A95E}.Debug|x64.ActiveCfg = Debug|x64
+		{4445A1E3-DBF2-4BDB-82CD-38F182C2A95E}.Debug|x64.Build.0 = Debug|x64
+		{4445A1E3-DBF2-4BDB-82CD-38F182C2A95E}.Debug|x86.ActiveCfg = Debug|Win32
+		{4445A1E3-DBF2-4BDB-82CD-38F182C2A95E}.Debug|x86.Build.0 = Debug|Win32
+		{4445A1E3-DBF2-4BDB-82CD-38F182C2A95E}.Release|x64.ActiveCfg = Release|x64
+		{4445A1E3-DBF2-4BDB-82CD-38F182C2A95E}.Release|x64.Build.0 = Release|x64
+		{4445A1E3-DBF2-4BDB-82CD-38F182C2A95E}.Release|x86.ActiveCfg = Release|Win32
+		{4445A1E3-DBF2-4BDB-82CD-38F182C2A95E}.Release|x86.Build.0 = Release|Win32
+		{B11A5A43-3603-41C6-99D2-A4960501E05B}.Debug|x64.ActiveCfg = Debug|x64
+		{B11A5A43-3603-41C6-99D2-A4960501E05B}.Debug|x64.Build.0 = Debug|x64
+		{B11A5A43-3603-41C6-99D2-A4960501E05B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B11A5A43-3603-41C6-99D2-A4960501E05B}.Debug|x86.Build.0 = Debug|Win32
+		{B11A5A43-3603-41C6-99D2-A4960501E05B}.Release|x64.ActiveCfg = Release|x64
+		{B11A5A43-3603-41C6-99D2-A4960501E05B}.Release|x64.Build.0 = Release|x64
+		{B11A5A43-3603-41C6-99D2-A4960501E05B}.Release|x86.ActiveCfg = Release|Win32
+		{B11A5A43-3603-41C6-99D2-A4960501E05B}.Release|x86.Build.0 = Release|Win32
+		{95CCAEC4-F882-4BEC-B51F-12A7CF8CA356}.Debug|x64.ActiveCfg = Debug|x64
+		{95CCAEC4-F882-4BEC-B51F-12A7CF8CA356}.Debug|x64.Build.0 = Debug|x64
+		{95CCAEC4-F882-4BEC-B51F-12A7CF8CA356}.Debug|x86.ActiveCfg = Debug|Win32
+		{95CCAEC4-F882-4BEC-B51F-12A7CF8CA356}.Debug|x86.Build.0 = Debug|Win32
+		{95CCAEC4-F882-4BEC-B51F-12A7CF8CA356}.Release|x64.ActiveCfg = Release|x64
+		{95CCAEC4-F882-4BEC-B51F-12A7CF8CA356}.Release|x64.Build.0 = Release|x64
+		{95CCAEC4-F882-4BEC-B51F-12A7CF8CA356}.Release|x86.ActiveCfg = Release|Win32
+		{95CCAEC4-F882-4BEC-B51F-12A7CF8CA356}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
