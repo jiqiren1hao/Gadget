@@ -58,10 +58,48 @@ public:
 	}
 };
 
+class Solution2 {
+public:
+	vector<string> result;
+	void helper(string s, int leftpare_need, int moreleft)
+	{
+		if (leftpare_need == 0 && moreleft == 0) 
+		{
+			result.push_back(s);
+			return;
+		}
+		if (leftpare_need > 0)
+			helper(s + "(", leftpare_need - 1, moreleft + 1);
+		if (moreleft > 0)
+			helper(s + ")", leftpare_need, moreleft - 1);
+	}
+	vector<string> generateParenthesis(int n) {
+		helper("", n, 0);
+		return result;
+	}
+};
+
+class Solution3 {
+public:
+	vector<string> result;
+	void helper(string s, int l, int r)
+	{
+		if (l == 0 && r == 0) result.push_back(s);
+
+		if (l > 0) helper(s + '(', l - 1, r + 1);
+		if (r > 0) helper(s + ')', l, r - 1);
+
+	}
+	vector<string> generateParenthesis(int n) {
+		helper("", n, 0);
+		return result;
+	}
+};
+
 
 int main()
 {
-	Solution s;
+	Solution3 s;
 
 	s.generateParenthesis(5);
     return 0;
