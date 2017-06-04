@@ -58,6 +58,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Implement strStr()", "Imple
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Divide Two Integers", "Divide Two Integers\Divide Two Integers.vcxproj", "{4D5344C6-6259-4CEF-9774-FB1A16E49107}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Substring with Concatenation of All Words", "Substring with Concatenation of All Words\Substring with Concatenation of All Words.vcxproj", "{CF115F41-082B-4611-B493-D72C37AD9DF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -290,6 +292,14 @@ Global
 		{4D5344C6-6259-4CEF-9774-FB1A16E49107}.Release|x64.Build.0 = Release|x64
 		{4D5344C6-6259-4CEF-9774-FB1A16E49107}.Release|x86.ActiveCfg = Release|Win32
 		{4D5344C6-6259-4CEF-9774-FB1A16E49107}.Release|x86.Build.0 = Release|Win32
+		{CF115F41-082B-4611-B493-D72C37AD9DF7}.Debug|x64.ActiveCfg = Debug|x64
+		{CF115F41-082B-4611-B493-D72C37AD9DF7}.Debug|x64.Build.0 = Debug|x64
+		{CF115F41-082B-4611-B493-D72C37AD9DF7}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF115F41-082B-4611-B493-D72C37AD9DF7}.Debug|x86.Build.0 = Debug|Win32
+		{CF115F41-082B-4611-B493-D72C37AD9DF7}.Release|x64.ActiveCfg = Release|x64
+		{CF115F41-082B-4611-B493-D72C37AD9DF7}.Release|x64.Build.0 = Release|x64
+		{CF115F41-082B-4611-B493-D72C37AD9DF7}.Release|x86.ActiveCfg = Release|Win32
+		{CF115F41-082B-4611-B493-D72C37AD9DF7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
