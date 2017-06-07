@@ -15,52 +15,31 @@ using namespace std;
 class Solution {
 public:
 	int longestValidParentheses(string s) {
-		int left = 0, right = 0;
-		int max = 0;
+		if (s.size() <= 1) return 0;
+		vector<int> L(s.size(), 0);
+		int curMax = 0;
 
-		for (int i = 0; i < s.length();)
+		for (int i = 1; i < s.size(); i++)
 		{
-			if (s.length() - i < max) break;
-			left = 0;
-			right = 0;
-			int j = i;
-			for (; j < s.length(); j++)
+			if (s[i] == ')')
 			{
-				if (s[j] == ')') right++;
-				else left++;
-
-				if (right > left)
+				if (s[i - 1] == '(')
 				{
-					i = j + 1;
-					break;
-				}
-				else if (right == left && left > max)
-				{
-					i = j + 1;
-					max = left;
-				}
-			}
-
-			if (j == s.length())
-			{
-				int n = right - left - 1;
-
-				if (n > 0)
-				{
-					while (i < s.length() && s[i] == '('&&n>0)
-					{
-						i++;
-						n--;
-					}
+					L[i] = (i - 2 >= 0) ? L[i - 2] + 2 : 2;
 				}
 				else
 				{
-					i++;
+					if (s[i - L[i - 1] - 1] == '(')
+					{
+						L[i] = L[i - 1] + 2 + L[i - L[i - 1] - 2];
+					}
 				}
+
+				if (L[i] > curMax) curMax = L[i];
 			}
 		}
 
-		return 2 * max;
+		return curMax;
 	}
 };
 
@@ -153,7 +132,7 @@ Else if s[i] is ')'
 int main()
 {
 	Solution s;
-	s.longestValidParentheses(")()(((())))(");
+	s.longestValidParentheses("()()");
     return 0;
 }
 

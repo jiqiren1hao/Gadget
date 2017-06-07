@@ -64,6 +64,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Next Permutation", "Next Pe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Longest Valid Parentheses", "Longest Valid Parentheses\Longest Valid Parentheses.vcxproj", "{7B611A9B-00FB-4D39-AD10-492278B5BE71}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Search in Rotated Sorted Array", "Search in Rotated Sorted Array\Search in Rotated Sorted Array.vcxproj", "{143A0219-D29A-45AD-A154-08FECBE4A981}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Search for a Range", "Search for a Range\Search for a Range.vcxproj", "{1BFBAB49-BDDB-4A7B-A0B0-DF568A5630D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -320,6 +324,22 @@ Global
 		{7B611A9B-00FB-4D39-AD10-492278B5BE71}.Release|x64.Build.0 = Release|x64
 		{7B611A9B-00FB-4D39-AD10-492278B5BE71}.Release|x86.ActiveCfg = Release|Win32
 		{7B611A9B-00FB-4D39-AD10-492278B5BE71}.Release|x86.Build.0 = Release|Win32
+		{143A0219-D29A-45AD-A154-08FECBE4A981}.Debug|x64.ActiveCfg = Debug|x64
+		{143A0219-D29A-45AD-A154-08FECBE4A981}.Debug|x64.Build.0 = Debug|x64
+		{143A0219-D29A-45AD-A154-08FECBE4A981}.Debug|x86.ActiveCfg = Debug|Win32
+		{143A0219-D29A-45AD-A154-08FECBE4A981}.Debug|x86.Build.0 = Debug|Win32
+		{143A0219-D29A-45AD-A154-08FECBE4A981}.Release|x64.ActiveCfg = Release|x64
+		{143A0219-D29A-45AD-A154-08FECBE4A981}.Release|x64.Build.0 = Release|x64
+		{143A0219-D29A-45AD-A154-08FECBE4A981}.Release|x86.ActiveCfg = Release|Win32
+		{143A0219-D29A-45AD-A154-08FECBE4A981}.Release|x86.Build.0 = Release|Win32
+		{1BFBAB49-BDDB-4A7B-A0B0-DF568A5630D0}.Debug|x64.ActiveCfg = Debug|x64
+		{1BFBAB49-BDDB-4A7B-A0B0-DF568A5630D0}.Debug|x64.Build.0 = Debug|x64
+		{1BFBAB49-BDDB-4A7B-A0B0-DF568A5630D0}.Debug|x86.ActiveCfg = Debug|Win32
+		{1BFBAB49-BDDB-4A7B-A0B0-DF568A5630D0}.Debug|x86.Build.0 = Debug|Win32
+		{1BFBAB49-BDDB-4A7B-A0B0-DF568A5630D0}.Release|x64.ActiveCfg = Release|x64
+		{1BFBAB49-BDDB-4A7B-A0B0-DF568A5630D0}.Release|x64.Build.0 = Release|x64
+		{1BFBAB49-BDDB-4A7B-A0B0-DF568A5630D0}.Release|x86.ActiveCfg = Release|Win32
+		{1BFBAB49-BDDB-4A7B-A0B0-DF568A5630D0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
