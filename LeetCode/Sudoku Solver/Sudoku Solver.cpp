@@ -31,15 +31,32 @@ public:
 	void solveSudoku(vector<vector<char>>& board) {
 		if (board.size() != 9) return;
 
+		init(board);
 		sudoku(0, 0, board);
+	}
+
+	void init(vector<vector<char>>& board)
+	{
+		for (int i = 0; i < 9; i++)
+		{
+			for (int j = 0; j < 9; j++)
+			{
+				if (board[i][j] == '.') continue;
+				int t = board[i][j] - '0' - 1;
+				row[i][t] = true;
+				col[j][t] = true;
+				cell[i / 3 * 3 + j / 3][t] = true;
+			}
+		}
 	}
 
 	bool sudoku(int i, int j, vector<vector<char>>& board)
 	{
+
 		for (; i < 9; i++)
 		{
 			if (board[i].size() != 9) return false;
-			for (; j < 9; j++)
+			for (j=0; j < 9; j++)
 			{
 				if (board[i][j] != '.') continue;
 
@@ -83,6 +100,22 @@ public:
 
 int main()
 {
+	vector<vector<char>> v= {
+		{'.','.','9','7','4','8','.','.','.'},
+		{ '.','.','9','7','4','8','.','.','.' },
+		{ '.','.','9','7','4','8','.','.','.' },
+		{ '.','.','9','7','4','8','.','.','.' },
+		{ '.','.','9','7','4','8','.','.','.' },
+		{ '.','.','9','7','4','8','.','.','.' },
+		{ '.','.','9','7','4','8','.','.','.' },
+		{ '.','.','9','7','4','8','.','.','.' },
+		{ '.','.','9','7','4','8','.','.','.' }
+	};
+
+	Solution s;
+	s.solveSudoku(v);
+
+
     return 0;
 }
 

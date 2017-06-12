@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "TwoSum\TwoSum.vcxproj", "{794D30C1-C71D-4FA6-9AF2-664022542510}"
 EndProject
@@ -73,6 +73,14 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid Sudoku", "Valid Sudoku\Valid Sudoku.vcxproj", "{CBF5294A-0E4B-4615-B323-6E2EB295057E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sudoku Solver", "Sudoku Solver\Sudoku Solver.vcxproj", "{5504C9F5-774F-4A85-80C2-DEF35FF14C73}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count and Say", "Count and Say\Count and Say.vcxproj", "{7FA57F85-D785-4D0B-877D-FA9002399AD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Combination Sum", "Combination Sum\Combination Sum.vcxproj", "{AF6C4CDB-D14E-48B9-B563-0CE432C7C3C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Combination Sum II", "Combination Sum II\Combination Sum II.vcxproj", "{18C06C7C-E2C8-49CB-8163-59D91B18C5BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "First Missing Positive", "First Missing Positive\First Missing Positive.vcxproj", "{54FAC274-DCA0-4A3E-A8AF-1DE0CFCFB533}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -370,6 +378,38 @@ Global
 		{5504C9F5-774F-4A85-80C2-DEF35FF14C73}.Release|x64.Build.0 = Release|x64
 		{5504C9F5-774F-4A85-80C2-DEF35FF14C73}.Release|x86.ActiveCfg = Release|Win32
 		{5504C9F5-774F-4A85-80C2-DEF35FF14C73}.Release|x86.Build.0 = Release|Win32
+		{7FA57F85-D785-4D0B-877D-FA9002399AD7}.Debug|x64.ActiveCfg = Debug|x64
+		{7FA57F85-D785-4D0B-877D-FA9002399AD7}.Debug|x64.Build.0 = Debug|x64
+		{7FA57F85-D785-4D0B-877D-FA9002399AD7}.Debug|x86.ActiveCfg = Debug|Win32
+		{7FA57F85-D785-4D0B-877D-FA9002399AD7}.Debug|x86.Build.0 = Debug|Win32
+		{7FA57F85-D785-4D0B-877D-FA9002399AD7}.Release|x64.ActiveCfg = Release|x64
+		{7FA57F85-D785-4D0B-877D-FA9002399AD7}.Release|x64.Build.0 = Release|x64
+		{7FA57F85-D785-4D0B-877D-FA9002399AD7}.Release|x86.ActiveCfg = Release|Win32
+		{7FA57F85-D785-4D0B-877D-FA9002399AD7}.Release|x86.Build.0 = Release|Win32
+		{AF6C4CDB-D14E-48B9-B563-0CE432C7C3C2}.Debug|x64.ActiveCfg = Debug|x64
+		{AF6C4CDB-D14E-48B9-B563-0CE432C7C3C2}.Debug|x64.Build.0 = Debug|x64
+		{AF6C4CDB-D14E-48B9-B563-0CE432C7C3C2}.Debug|x86.ActiveCfg = Debug|Win32
+		{AF6C4CDB-D14E-48B9-B563-0CE432C7C3C2}.Debug|x86.Build.0 = Debug|Win32
+		{AF6C4CDB-D14E-48B9-B563-0CE432C7C3C2}.Release|x64.ActiveCfg = Release|x64
+		{AF6C4CDB-D14E-48B9-B563-0CE432C7C3C2}.Release|x64.Build.0 = Release|x64
+		{AF6C4CDB-D14E-48B9-B563-0CE432C7C3C2}.Release|x86.ActiveCfg = Release|Win32
+		{AF6C4CDB-D14E-48B9-B563-0CE432C7C3C2}.Release|x86.Build.0 = Release|Win32
+		{18C06C7C-E2C8-49CB-8163-59D91B18C5BF}.Debug|x64.ActiveCfg = Debug|x64
+		{18C06C7C-E2C8-49CB-8163-59D91B18C5BF}.Debug|x64.Build.0 = Debug|x64
+		{18C06C7C-E2C8-49CB-8163-59D91B18C5BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{18C06C7C-E2C8-49CB-8163-59D91B18C5BF}.Debug|x86.Build.0 = Debug|Win32
+		{18C06C7C-E2C8-49CB-8163-59D91B18C5BF}.Release|x64.ActiveCfg = Release|x64
+		{18C06C7C-E2C8-49CB-8163-59D91B18C5BF}.Release|x64.Build.0 = Release|x64
+		{18C06C7C-E2C8-49CB-8163-59D91B18C5BF}.Release|x86.ActiveCfg = Release|Win32
+		{18C06C7C-E2C8-49CB-8163-59D91B18C5BF}.Release|x86.Build.0 = Release|Win32
+		{54FAC274-DCA0-4A3E-A8AF-1DE0CFCFB533}.Debug|x64.ActiveCfg = Debug|x64
+		{54FAC274-DCA0-4A3E-A8AF-1DE0CFCFB533}.Debug|x64.Build.0 = Debug|x64
+		{54FAC274-DCA0-4A3E-A8AF-1DE0CFCFB533}.Debug|x86.ActiveCfg = Debug|Win32
+		{54FAC274-DCA0-4A3E-A8AF-1DE0CFCFB533}.Debug|x86.Build.0 = Debug|Win32
+		{54FAC274-DCA0-4A3E-A8AF-1DE0CFCFB533}.Release|x64.ActiveCfg = Release|x64
+		{54FAC274-DCA0-4A3E-A8AF-1DE0CFCFB533}.Release|x64.Build.0 = Release|x64
+		{54FAC274-DCA0-4A3E-A8AF-1DE0CFCFB533}.Release|x86.ActiveCfg = Release|Win32
+		{54FAC274-DCA0-4A3E-A8AF-1DE0CFCFB533}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
