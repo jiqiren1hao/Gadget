@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "TwoSum\TwoSum.vcxproj", "{794D30C1-C71D-4FA6-9AF2-664022542510}"
 EndProject
@@ -85,6 +85,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Trapping Rain Water", "Trapping Rain Water\Trapping Rain Water.vcxproj", "{95C08E39-359D-4E0F-AC2C-B0BAEFA9FCF4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wildcard Matching", "Wildcard Matching\Wildcard Matching.vcxproj", "{64A01566-6334-4422-A7F4-1F64D846D632}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Multiply Strings", "Multiply Strings\Multiply Strings.vcxproj", "{35890D58-3F8B-4F62-AB22-C719B9A97AE9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Jump Game II", "Jump Game II\Jump Game II.vcxproj", "{AFE45004-0550-44FE-A8AF-28C4A02B9FC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -430,6 +434,22 @@ Global
 		{64A01566-6334-4422-A7F4-1F64D846D632}.Release|x64.Build.0 = Release|x64
 		{64A01566-6334-4422-A7F4-1F64D846D632}.Release|x86.ActiveCfg = Release|Win32
 		{64A01566-6334-4422-A7F4-1F64D846D632}.Release|x86.Build.0 = Release|Win32
+		{35890D58-3F8B-4F62-AB22-C719B9A97AE9}.Debug|x64.ActiveCfg = Debug|x64
+		{35890D58-3F8B-4F62-AB22-C719B9A97AE9}.Debug|x64.Build.0 = Debug|x64
+		{35890D58-3F8B-4F62-AB22-C719B9A97AE9}.Debug|x86.ActiveCfg = Debug|Win32
+		{35890D58-3F8B-4F62-AB22-C719B9A97AE9}.Debug|x86.Build.0 = Debug|Win32
+		{35890D58-3F8B-4F62-AB22-C719B9A97AE9}.Release|x64.ActiveCfg = Release|x64
+		{35890D58-3F8B-4F62-AB22-C719B9A97AE9}.Release|x64.Build.0 = Release|x64
+		{35890D58-3F8B-4F62-AB22-C719B9A97AE9}.Release|x86.ActiveCfg = Release|Win32
+		{35890D58-3F8B-4F62-AB22-C719B9A97AE9}.Release|x86.Build.0 = Release|Win32
+		{AFE45004-0550-44FE-A8AF-28C4A02B9FC6}.Debug|x64.ActiveCfg = Debug|x64
+		{AFE45004-0550-44FE-A8AF-28C4A02B9FC6}.Debug|x64.Build.0 = Debug|x64
+		{AFE45004-0550-44FE-A8AF-28C4A02B9FC6}.Debug|x86.ActiveCfg = Debug|Win32
+		{AFE45004-0550-44FE-A8AF-28C4A02B9FC6}.Debug|x86.Build.0 = Debug|Win32
+		{AFE45004-0550-44FE-A8AF-28C4A02B9FC6}.Release|x64.ActiveCfg = Release|x64
+		{AFE45004-0550-44FE-A8AF-28C4A02B9FC6}.Release|x64.Build.0 = Release|x64
+		{AFE45004-0550-44FE-A8AF-28C4A02B9FC6}.Release|x86.ActiveCfg = Release|Win32
+		{AFE45004-0550-44FE-A8AF-28C4A02B9FC6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
