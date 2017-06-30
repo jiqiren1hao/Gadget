@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "TwoSum\TwoSum.vcxproj", "{794D30C1-C71D-4FA6-9AF2-664022542510}"
 EndProject
@@ -115,6 +115,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Insert Interval", "Insert Interval\Insert Interval.vcxproj", "{9BD7874B-3951-49DC-B8CF-DB8FC234F047}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subsets", "Subsets\Subsets.vcxproj", "{669BBE2A-F82D-4DDD-80D4-28DD85B541DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Length of Last Word", "Length of Last Word\Length of Last Word.vcxproj", "{95EA9471-D581-4899-9909-4369E333FBF0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Spiral Matrix II", "Spiral Matrix II\Spiral Matrix II.vcxproj", "{98168806-3820-4B21-9ED6-6653C8DB9868}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Permutation Sequence", "Permutation Sequence\Permutation Sequence.vcxproj", "{9B6CD8EB-2173-4E9F-804C-A252370DA3FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -580,6 +586,30 @@ Global
 		{669BBE2A-F82D-4DDD-80D4-28DD85B541DD}.Release|x64.Build.0 = Release|x64
 		{669BBE2A-F82D-4DDD-80D4-28DD85B541DD}.Release|x86.ActiveCfg = Release|Win32
 		{669BBE2A-F82D-4DDD-80D4-28DD85B541DD}.Release|x86.Build.0 = Release|Win32
+		{95EA9471-D581-4899-9909-4369E333FBF0}.Debug|x64.ActiveCfg = Debug|x64
+		{95EA9471-D581-4899-9909-4369E333FBF0}.Debug|x64.Build.0 = Debug|x64
+		{95EA9471-D581-4899-9909-4369E333FBF0}.Debug|x86.ActiveCfg = Debug|Win32
+		{95EA9471-D581-4899-9909-4369E333FBF0}.Debug|x86.Build.0 = Debug|Win32
+		{95EA9471-D581-4899-9909-4369E333FBF0}.Release|x64.ActiveCfg = Release|x64
+		{95EA9471-D581-4899-9909-4369E333FBF0}.Release|x64.Build.0 = Release|x64
+		{95EA9471-D581-4899-9909-4369E333FBF0}.Release|x86.ActiveCfg = Release|Win32
+		{95EA9471-D581-4899-9909-4369E333FBF0}.Release|x86.Build.0 = Release|Win32
+		{98168806-3820-4B21-9ED6-6653C8DB9868}.Debug|x64.ActiveCfg = Debug|x64
+		{98168806-3820-4B21-9ED6-6653C8DB9868}.Debug|x64.Build.0 = Debug|x64
+		{98168806-3820-4B21-9ED6-6653C8DB9868}.Debug|x86.ActiveCfg = Debug|Win32
+		{98168806-3820-4B21-9ED6-6653C8DB9868}.Debug|x86.Build.0 = Debug|Win32
+		{98168806-3820-4B21-9ED6-6653C8DB9868}.Release|x64.ActiveCfg = Release|x64
+		{98168806-3820-4B21-9ED6-6653C8DB9868}.Release|x64.Build.0 = Release|x64
+		{98168806-3820-4B21-9ED6-6653C8DB9868}.Release|x86.ActiveCfg = Release|Win32
+		{98168806-3820-4B21-9ED6-6653C8DB9868}.Release|x86.Build.0 = Release|Win32
+		{9B6CD8EB-2173-4E9F-804C-A252370DA3FB}.Debug|x64.ActiveCfg = Debug|x64
+		{9B6CD8EB-2173-4E9F-804C-A252370DA3FB}.Debug|x64.Build.0 = Debug|x64
+		{9B6CD8EB-2173-4E9F-804C-A252370DA3FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B6CD8EB-2173-4E9F-804C-A252370DA3FB}.Debug|x86.Build.0 = Debug|Win32
+		{9B6CD8EB-2173-4E9F-804C-A252370DA3FB}.Release|x64.ActiveCfg = Release|x64
+		{9B6CD8EB-2173-4E9F-804C-A252370DA3FB}.Release|x64.Build.0 = Release|x64
+		{9B6CD8EB-2173-4E9F-804C-A252370DA3FB}.Release|x86.ActiveCfg = Release|Win32
+		{9B6CD8EB-2173-4E9F-804C-A252370DA3FB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
